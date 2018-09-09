@@ -1,0 +1,32 @@
+.g-component {
+
+    &__title {
+        font-size: 15px;
+        columns: rgb(46, 46, 46);;
+        padding:0px 10px 0px 40px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    &__left{
+        padding-left: 50px;
+    }
+    &__right{
+        float:right;
+    }
+
+    &__href {
+        margin-bottom: $mb;
+        &-linea {
+            @include hr-variation($color-red)
+        }
+    
+        &-lineshort{
+            @include hr-variation-short($color-grey)
+        }
+    }
+
+    .text{
+        padding: 0px 10px 0px 100px;
+    }
+}

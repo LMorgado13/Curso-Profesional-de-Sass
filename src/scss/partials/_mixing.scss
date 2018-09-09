@@ -1,0 +1,15 @@
+@mixin hr-variation($border-color : $color-red) {
+    hr {
+        margin-top: $margin;
+        border: 1px solid lighten($border-color, 1%);
+    }
+}
+
+@mixin hr-variation-short($border-color : $color-grey) {
+    hr {
+        //align-items: right;
+        border: 1px solid lighten($border-color, 1%);
+        padding: 40px;
+        margin-left: 3rem;
+    }
+}
