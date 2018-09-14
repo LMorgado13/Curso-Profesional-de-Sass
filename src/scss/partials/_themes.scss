@@ -1,0 +1,51 @@
+
+@import "variables";
+@import "mixing";
+
+body{
+    font-family: $font-family-primary;
+    background-color: $color-white;
+
+    .navbar{
+
+        padding-right: 5.5rem;
+        padding-left: 1.5rem;
+    
+    }
+
+         .alink {
+                color: $color-white;
+                padding-right: 3.5rem;
+
+                &__a {
+                    color: $color-white;
+                    padding-right: 3.5rem;
+             } 
+
+             &__hover{
+                color: $color-red;
+                padding-right: 3.5rem;
+             }
+         } 
+
+         .btn{
+            float: right;
+            justify-content: flex-end ;
+
+       }
+       
+    h1 {
+        color: $color-red;
+        font-size: $font-size-h1;
+    }
+
+h2 {
+    color: $color-blue;
+    font-size: $font-size-h2;
+}
+
+.b-footer {
+background-color: $color-red;
+color: $color-white;
+}
+}

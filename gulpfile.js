@@ -4,6 +4,7 @@ const autoprefixer = require('gulp-autoprefixer');
 // Gulp
 const gulp = require('gulp');
 const rename = require('gulp-rename');
+const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const gutil = require('gulp-util');
 
@@ -44,6 +45,8 @@ gulp.task('sass:compiled', () => {
           }
         })
     )
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    
     .pipe(
         sourcemaps.write('.', {
           includeContent: false,
