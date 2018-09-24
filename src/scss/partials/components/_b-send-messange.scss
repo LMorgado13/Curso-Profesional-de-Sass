@@ -1,72 +1,73 @@
+@import "../variables";
+
 //Block
-.b-send-messange {
-    border: 1px solid $color-gray;
-    background-color:$color-white;
-    min-height: 330px;
-    max-width: 405px;
-    overflow: hidden;
-  
+.b-send-message {
+  border: 1px solid $color-gray;
+  background-color: $color-white;
+  min-height: 330px;
+  max-width: 405px;
+  overflow: hidden;
 
-        &__information{
-            padding: 10px;
-        }
-        //Elements
-            &__thumbnail{
-                //padding-left: 0 10px 0 20px;
-                padding: 10px 30px;
-            }
+  &__information {
+    padding: 10px;
+  }
 
-         &__title{
-            font-size: 16px;
-            line-height: 1.5em; 
-            color:$color-gray;
-            padding-left: 20px;
-            margin-top: 10px;
-        }
+  //Elements
+  &__thumbnail {
+    padding: 10px 30px;
+  }
 
-        &__type{
+  &__title {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: $color-gray;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
 
-     }
-    
-        &__actions {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            text-align: right; 
-        }
+  &__type {
 
-            &__icon{
-                color: black;
-                &:hover{
-                    color:$color-red; 
-                }
-                &--highlighted {
-                    color:$color-red;
-                }
-            }
+  }
 
-        &__icon-item {
-            display: inline-block;
-            margin: 0 5px;
-        }
+  &__actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+  }
 
-            &__icon-info{
-                //text-align: left;
-                font-size: 36px;
-                float: left;
-                //padding-left: 10px;
-                width: 50px;
-            }
-
-        &__icon-watch {
-                
-        }
-
-        &__icon-queue {
-
-        }
-
-        &__container {
-
+  &__icon {
+    color: black;
+    &:hover {
+      color: $color-red;
     }
+    &--highlighted {
+      color: $color-red;
+    }
+  }
+
+  &__icon-item {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  &__icon-info {
+    //text-align: left;
+    font-size: 36px;
+    float: left;
+    //padding-left: 10px;
+    width: 50px;
+  }
+
+  &__icon-watch {
+
+  }
+
+  &__icon-queue {
+
+  }
+
+  &__container {
+
+  }
 }
