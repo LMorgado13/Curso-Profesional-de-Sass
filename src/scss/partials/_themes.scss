@@ -47,4 +47,11 @@ body {
     background-color: $color-red;
     color: $color-white;
   }
+  .form-group{
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid $color-red;
+  width: 100%;
+}
 }
