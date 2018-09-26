@@ -47,11 +47,18 @@ body {
     background-color: $color-red;
     color: $color-white;
   }
-  .form-group{
-  padding: 8px;
-  display: block;
-  border: none;
-  border-bottom: 1px solid $color-red;
-  width: 100%;
-}
+
+  .form-field {
+    padding: 20px 10px;
+    display: block;
+    border: none;
+    border-bottom: 2px solid $color-red;
+    width: 100%;
+    margin-bottom: 20px;
+    background: $color-light-gray;
+
+    &:focus {
+      outline: none;
+    }
+  }
 }
